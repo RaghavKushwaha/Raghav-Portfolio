@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://raghavkushwaha.github.io/portfolio/sitemap.xml
