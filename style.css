@@ -191,11 +191,19 @@ h1,h2,h3{ margin: 0; font-family: var(--mono); }
 .section:last-of-type{ padding-bottom: 96px; }
 
 .section__title{
+  display: inline;
   font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 40px;
   color: var(--text);
 }
+.section__note{
+  display: inline;
+  margin: 0 0 0 16px;
+  color: var(--text-faint);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+}
+.section__title + .section__note + *{ margin-top: 40px; }
 .cmt{ color: var(--text-faint); font-weight: 400; }
 
 /* ============ hero ============ */
